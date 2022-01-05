@@ -1,0 +1,17 @@
+{
+  "name": "nlp_scraping_imdb",
+  "version": "1.0.0",
+  "description": "This small project is for scraping imdb movies data and store in csv format to use as a dataset for my nlp model training.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2",
+    "xlsx": "^0.17.4"
+  }
+}
